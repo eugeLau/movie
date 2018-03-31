@@ -1,0 +1,88 @@
+.indMovieSection {
+    width: 90%;
+    margin: 0 auto 5% auto;
+}
+
+.movie-single__poster{
+    display: flex;
+}
+
+.movie-single__image{
+    width: 30%;
+}
+
+.movie-single__description{
+    width: 70%;
+    text-align: left;
+    p {
+        padding-right: 3%;
+        padding-left: 3%;
+        width: 70%;
+        font-size: 1rem;
+    }
+}
+
+.indMovieTitle {
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    color: rgb(255, 145, 0);
+}
+
+.indMovieDateTitle {
+    font-size: 1.5rem;
+}
+
+.titleDescription {
+    margin-bottom: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.indMovieNavLi:nth-child(2) {
+    margin-left: 2%;
+}
+
+.indMovieNavLi {
+    margin-top:5px;
+    color: rgba(219, 217, 217, 0.87);
+}
+
+@media (max-width: 767px) {
+    // .movie-single__poster{
+    //     display: block;
+    // }
+
+    .movie-single__image{
+        width: 60%;
+    }
+
+    .movie-single__description {
+        width: 40%;
+    }
+
+    .movie-single__description p {
+        width: 100%;
+        margin-top: 0;
+        padding-left: 10%;
+    }
+}
+
+@media (max-width: 480px) {
+    .movie-single__poster{
+        display: block;
+    }
+
+    .movie-single__image {
+        width: 100%;
+    }
+    .movie-single__description {
+        width: 100%;
+    }
+
+    .movie-single__description p {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+    }
+}

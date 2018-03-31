@@ -1,0 +1,24 @@
+.mainNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgba(0, 0, 0, 0.507);
+    flex-wrap: wrap;
+    a {
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: rgb(255, 145, 0);
+        font-weight: bolder;
+    }
+}
+
+.indMovieNav {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+}

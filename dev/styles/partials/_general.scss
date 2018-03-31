@@ -1,0 +1,30 @@
+body {
+    background: rgba(0, 0, 0, 0.911);
+}
+header{
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, p, a {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 62.5%;
+    color: rgba(219, 217, 217, 0.87);
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+// h2 {
+//     font-size: 1.4rem;
+// }
